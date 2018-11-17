@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb37bda0-a7e6-40be-93cb-fd9691f7752a" name="Default" comment="" />
+    <list default="true" id="eb37bda0-a7e6-40be-93cb-fd9691f7752a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfoFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeTag.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/ZAttributeInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/CodeAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ConstantValueAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/DeprecatedAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ExceptionAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LineNumberTableAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LocalVariableTableAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SourceFileAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SyntheticAttr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/UnparsedAttribute.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantClassInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantDoubleInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantFieldRefInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantFloatInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInfoFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantIntegerInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInterfaceMethodRefInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInvokeDynamicInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantLongInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMemberRefInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodHandleInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodRefInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodTypeInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantNameAndTypeInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantPool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantPoolTag.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantStringInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantUtf8Info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/field/MemberInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/exception/MockException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Math.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Jvm.iml" afterPath="$PROJECT_DIR$/Jvm.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ClassFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ClassFile.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ZConstantInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantPoolTag.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.class" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/Constant.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/Constant.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/ZYMain.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/ZYMain.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/Classpath.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/Classpath.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/CompositeEntry.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/CompositeEntry.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/DirEntry.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/DirEntry.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/Entry.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/Entry.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/EntryFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/EntryFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/WildcardEntry.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/WildcardEntry.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/ZipEntry.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/classpath/ZipEntry.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/command/Cmd.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/command/Cmd.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/exception/ClasspathNotFoundException.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/exception/ClasspathNotFoundException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/reader/ClassReader.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/reader/ClassReader.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/util/ClassFileTest.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/util/ClassFileTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/util/Log.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/util/Log.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/util/TextUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/zyinux/jvm/util/TextUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/CmdTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/CmdTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/classpath/CompositeEntryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/classpath/CompositeEntryTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/classpath/DirEntryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/classpath/DirEntryTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/classpath/ZipEntryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/zyinux/jvm/classpath/ZipEntryTest.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZYMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java">
+      <file leaf-file-name="AttributeInfoFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="-137">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,50 +92,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java">
+      <file leaf-file-name="ZAttributeInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/ZAttributeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ClassFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="114" column="28" lean-forward="false" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstantInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="228">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantPoolTag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantPoolTag.java">
+      <file leaf-file-name="ZYMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="555">
+              <caret line="53" column="82" lean-forward="false" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,7 +116,77 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/CmdTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="128" lean-forward="false" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantValueAttr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ConstantValueAttr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassFileTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ClassFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171">
+              <caret line="117" column="63" lean-forward="false" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/field/MemberInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-265">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalVariableTableAttr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LocalVariableTableAttr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributeTag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeTag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -95,6 +204,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+      <find>Log.error</find>
+      <find>ConstantValueAttr.attrLen</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -108,31 +227,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/Cmd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/TextUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/command/Cmd.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/DirEntryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/CompositeEntryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/exception/ClasspathNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/WildcardEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/EntryFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/ZipEntryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Entry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/DirEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/CompositeEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Classpath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zyinux/jvm/CmdTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/ZipEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/exception/MockException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ZConstantInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMemberRefInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantPoolTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ZConstantInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantDoubleInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantFieldRefInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantFloatInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantIntegerInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInterfaceMethodRefInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInvokeDynamicInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantLongInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodHandleInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodRefInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodTypeInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantNameAndTypeInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantStringInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantClassInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInfoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantUtf8Info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Math.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantPoolTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/field/MemberInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/UnparsedAttribute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SourceFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/ZAttributeInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SourceFileAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SyntheticAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/DeprecatedAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/CodeAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ExceptionAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LineNumberTableAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/UnparsedAttribute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LocalVariableTableAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfoFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ClassFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zyinux/jvm/CmdTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ConstantValueAttr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java" />
       </list>
     </option>
   </component>
@@ -154,10 +299,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
-    <option name="width" value="1709" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -174,8 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +383,76 @@
               <item name="zyinux" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="classinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zyinux" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="classinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zyinux" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="classinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+              <item name="attr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zyinux" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="classinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="field" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zyinux" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="classpath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zyinux" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zyinux" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jvm" type="b2602c69:ProjectViewProjectNode" />
@@ -316,8 +531,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,77 +779,89 @@
       <updated>1542087406825</updated>
       <workItem from="1542087408350" duration="7901000" />
       <workItem from="1542097197889" duration="11818000" />
-      <workItem from="1542156423312" duration="9340000" />
+      <workItem from="1542156423312" duration="18686000" />
+      <workItem from="1542266680419" duration="9142000" />
+      <workItem from="1542353558361" duration="5489000" />
+      <workItem from="1542434262279" duration="4017000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 45m 42s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 14h 55m 35s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 46m 35s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 21m 22s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 46m 47s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 22m 20s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 47m 02s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 23m 13s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 47m 33s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 24m 56s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 47m 42s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 26m 05s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 48m 05s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 26m 23s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 54m 15s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 27m 00s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 20h 55m 45s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 28m 21s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CmdTest_parse - 2018.11.13 at 21h 47m 01s.xml">
+    <history-entry file="CmdTest_parse - 2018.11.17 at 15h 31m 13s.xml">
       <configuration name="CmdTest.parse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29059000" />
+    <option name="totallyTimeSpent" value="57053000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670158" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51672864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68900526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22527473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.686911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +872,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -652,228 +881,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/CmdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Entry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodRefInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/EntryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/DirEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/ZipEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/CompositeEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/ZipEntryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/ClassNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/WildcardEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar!/lombok/extern/slf4j/Slf4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/TextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantMethodTypeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Log.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantStringInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-566">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/ClassNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/CompositeEntryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/DirEntryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="2065" column="49" lean-forward="false" selection-start-line="2065" selection-start-column="49" selection-end-line="2065" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="168" column="29" lean-forward="false" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="452" column="18" lean-forward="false" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/exception/ClasspathNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/classpath/ZipEntryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/WildcardEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/zip/ZipFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="570" column="21" lean-forward="false" selection-start-line="570" selection-start-column="21" selection-end-line="570" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/DirEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantNameAndTypeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -884,171 +923,408 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar!/okio/BufferedSource.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantLongInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/ZipEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/EntryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="532">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/CompositeEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/command/Cmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="205">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Classpath.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/ZipEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        <state relative-caret-position="330">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/messaging/saaj/util/ByteInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="235" column="9" lean-forward="false" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/exception/MockException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/StringCoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="249" column="18" lean-forward="false" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="545" column="37" lean-forward="false" selection-start-line="545" selection-start-column="37" selection-end-line="545" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2089#2090#0" expanded="false" />
-            <element signature="e#2136#2137#0" expanded="false" />
+            <element signature="e#20727#20728#0" expanded="false" />
+            <element signature="e#20771#20772#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/CmdTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/DataInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14098">
+          <caret line="803" column="33" lean-forward="false" selection-start-line="803" selection-start-column="33" selection-end-line="803" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantIntegerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantUtf8Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/DirEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1344#1345#0" expanded="false" />
+            <element signature="e#2339#2340#0" expanded="false" />
+            <element signature="e#2375#2376#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/sa-jdi.jar!/sun/jvm/hotspot/runtime/ClassConstants.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ZConstantInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-508">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="190">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/sa-jdi.jar!/sun/jvm/hotspot/oops/ConstantPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-569">
-          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/ConstantPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/classfile/ConstantPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="616" column="24" lean-forward="false" selection-start-line="616" selection-start-column="24" selection-end-line="616" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/classfile/AccessFlags.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/classfile/Field.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/classfile/ClassFile.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1594">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/DeprecatedAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SourceFileAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#836#837#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/SyntheticAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantPoolTag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/reader/ClassReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ConstantPoolTag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ExceptionAttr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding>
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#635#636#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LineNumberTableAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/UnparsedAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/CodeAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/LocalVariableTableAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/constantinfo/ConstantInfoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar!/sun/tools/java/ClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classpath/Classpath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/ClassFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="114" column="28" lean-forward="false" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        <state relative-caret-position="-171">
+          <caret line="117" column="63" lean-forward="false" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/AttributeInfoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/ZAttributeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/attribute/attr/ConstantValueAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/classinfo/field/MemberInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/ZYMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="53" column="82" lean-forward="false" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zyinux/jvm/CmdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="128" lean-forward="false" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyinux/jvm/util/ClassFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
           </folding>
         </state>
       </provider>

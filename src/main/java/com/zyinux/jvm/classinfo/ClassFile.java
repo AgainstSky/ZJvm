@@ -1,6 +1,13 @@
 package com.zyinux.jvm.classinfo;
 
+import com.zyinux.jvm.classinfo.attribute.AttributeInfoFactory;
+import com.zyinux.jvm.classinfo.attribute.ZAttributeInfo;
+import com.zyinux.jvm.classinfo.constantinfo.ConstantInfo;
+import com.zyinux.jvm.classinfo.constantinfo.ConstantPool;
+import com.zyinux.jvm.classinfo.field.MemberInfo;
+import com.zyinux.jvm.exception.MockException;
 import com.zyinux.jvm.reader.ClassReader;
+import com.zyinux.jvm.util.Log;
 import lombok.Data;
 
 /**
@@ -11,6 +18,8 @@ import lombok.Data;
  **/
 @Data
 public class ClassFile {
+
+    public static final int MAGIC = 0xCAFEBABE;
 
     /**
      * 魔数
@@ -28,14 +37,14 @@ public class ClassFile {
     private short majorVersion;
 
     /**
-     * 常量池计数器  值为常量池中常量数量 + 1
+     * 常量池计数器  值至少为常量池中常量数量 + 1
      */
-    private short constantPoolCount;
+    private int constantPoolCount;
 
     /**
      * 常量池
      */
-    private ConstantInfo[] constantPool;
+    private ConstantPool constantPool;
 
     /**
      * 访问标志  表示该类或者接口的访问权限及属性
@@ -54,17 +63,23 @@ public class ClassFile {
 
     private short superClass;
 
-//    private short interfaceCount;
+    private int interfaceCount;
 
     private short[] interfaces;
+
+    private MemberInfo[] fields;
+
+    private MemberInfo[] methods;
+
+    private ZAttributeInfo[] attributes;
 
 
     private ClassFile() {
 
     }
 
-    public static ClassFile parse(byte[] data){
-        ClassFile classFile=new ClassFile();
+    public static ClassFile parse(byte[] data) {
+        ClassFile classFile = new ClassFile();
         classFile.read(new ClassReader(data));
         return classFile;
     }
@@ -93,27 +108,68 @@ public class ClassFile {
         superClass = reader.readU2();
 
 //        interfaceCount = reader.readU2();
-
+//
         interfaces = reader.readU2s();
 
+        interfaceCount = interfaces.length;
 
+        fields = MemberInfo.readMembers(reader, constantPool);
+
+        methods = MemberInfo.readMembers(reader, constantPool);
+
+        attributes = AttributeInfoFactory.readAttributes(reader, constantPool);
 
     }
 
     private void readConstantPool(ClassReader reader) {
-        //TODO:
+        constantPool = new ConstantPool(reader);
+        constantPoolCount = constantPool.getConstantCount();
     }
 
     private void readAndCheckVersion(ClassReader reader) {
-
+        minorVersion = reader.readU2();
+        majorVersion = reader.readU2();
+        switch (majorVersion) {
+            case 45:
+                return;
+            case 46:
+            case 47:
+            case 48:
+            case 49:
+            case 50:
+            case 51:
+            case 52:
+                if (minorVersion == 0) {
+                    return;
+                }
+        }
+        MockException.t(getClass(), "This Class Version not support");
     }
 
     private void readAndCheckMagic(ClassReader reader) {
-
+        magic = reader.readU4();
+        if (magic != MAGIC) {
+            MockException.t(getClass(), "magic error!");
+        }
+        Log.info("magic ok!");
     }
 
-    public String ClassName() {
-        //TODO:
+    public String className() {
+        return constantPool.getClassName(thisClass);
+    }
+
+    public String superClassName() {
+        if (superClass > 0) {
+            return constantPool.getClassName(superClass);
+        }
         return "";
+    }
+
+    public String[] interfaceNames() {
+        String[] names = new String[interfaceCount];
+        for (int i = 0; i < names.length; i++) {
+            names[i] = constantPool.getClassName(interfaces[i]);
+        }
+        return names;
     }
 }
