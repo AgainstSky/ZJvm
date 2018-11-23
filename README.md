@@ -1,5 +1,5 @@
 # Z-JVM
-Java 实现的建议JVM-未完
+Java 实现的JVM-未完
 
 ## 简介
 一个用Java实现的Jvm虚拟机。
